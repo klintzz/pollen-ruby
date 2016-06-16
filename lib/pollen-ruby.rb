@@ -1,3 +1,5 @@
+require 'pollen-ruby/request'
+
 class PollenRuby
 
   def self.pollen_for(zip)
