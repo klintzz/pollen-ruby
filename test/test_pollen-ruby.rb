@@ -8,9 +8,14 @@ class PollenRubyTest < Minitest::Test
     PollenRuby::PollenRequest.new(94702).zip_code
   end
 
-  def test_get_query
-    assert_equal "https://www.pollen.com/api/forecast/current/pollen/94702",
-    PollenRuby::PollenRequest.new(94702).query
+  def test_get_uri_host
+    assert_equal URI("https://www.pollen.com").host,
+    PollenRuby::PollenRequest.new(94702).uri.host
+  end
+
+  def test_get_pollen
+    assert_equal Hash.new.class,
+    PollenRuby.pollen_for(94702).class
   end
 
 end

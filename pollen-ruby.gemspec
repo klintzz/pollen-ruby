@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "pollen-ruby"
-  spec.version       = '0.0.2'
+  spec.version       = '0.0.3'
   spec.authors       = ["Kevin Lin"]
   spec.email         = ["klint771@gmail.com"]
   spec.date          = '2016-06-15'
