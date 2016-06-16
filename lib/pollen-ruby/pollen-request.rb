@@ -7,7 +7,7 @@ class PollenRequest
     end
 
     def pollen_count
-      puts @zip
+      @zip
     end
 
 end
