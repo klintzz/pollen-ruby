@@ -1,5 +1,3 @@
-require 'pollen-ruby/pollen-request'
-
 class PollenRuby
 
   def self.pollen_for(zip)
@@ -8,3 +6,5 @@ class PollenRuby
   end
 
 end
+
+require 'pollen-ruby/pollen-request'
